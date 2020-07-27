@@ -1,0 +1,68 @@
+table, td, th {	
+	text-align:left;
+        border-collapse: collapse;
+	margin: auto;
+}
+
+table  tbody{
+        display:block;
+        overflow:auto;
+       
+}
+
+table, td {
+	padding: 5px;
+}
+
+table, tr:nth-child(even) {
+	padding: 5px;
+   	background-color: #eeee;
+    	text-align:left;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+}
+table, tr:nth-child(odd) {
+	padding: 5px;
+   	background-color: #fff;
+   	text-align:left;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+}
+
+a:link {
+	color: #FFFFFF;
+}
+
+a:visited {
+	color: #FFFFFF;
+}
+
+.table {
+display:table;
+width: 100%;
+text-align: left;
+}
+
+.header {
+ display:table-cell;
+ font-weight: bold; 
+ padding: 5px;
+}
+
+ .row {
+    display:table-row;
+    cursor: pointer; 
+}
+
+  .data {
+display:table-cell;
+padding: 5px;
+ }
+ 
+ /*other formating for the div tables*/
+ 
+ div.row:nth-child(odd) {
+     background-color: #eeee;
+ }

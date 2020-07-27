@@ -1,0 +1,189 @@
+
+.commonform {
+    text-align: center;
+    padding:10px;
+    background-color:#2665C4 ;
+    width: 300px;
+    margin: auto;
+    height: auto;
+    color: #FFFFFF;
+    border-radius: 5px;
+    line-height: 20px;
+    display: inline-block;
+}
+
+.textinput {
+    width: 100%;
+    max-width: 170px;
+    min-width: 100px;
+    padding: 2px;
+    padding-left: 5px;
+    margin: 2px;
+    box-sizing: border-box;
+    border: none;
+    color: #000000;
+    border-radius: 5px;
+    float: right;
+}
+
+.label {
+    text-align: left;
+    width:50%;
+    float:left;
+    padding: 2px;
+    margin: 2px;
+    color: #FFFFFF;
+    box-sizing: border-box;
+}
+
+p.label {
+    
+}
+
+.field {
+    width:45%;
+    float: right;
+    box-sizing: border-box;
+}
+
+#buttondiv {
+    margin-top: 20px;
+    background-color:#2665C4;
+    position: relative;
+    width: auto;
+    clear: both;
+    float:left;
+}
+
+.halftextinput {
+    width: 25%;
+    padding-left: 5px;
+    box-sizing: border-box;
+    border: none;
+    color: #000000;
+    border-radius: 5px;
+}
+
+.state {
+    width: 45px;
+    padding: 2px;
+    margin: 2px;
+    box-sizing: border-box;
+    border: none;
+    color: #000000;
+    border-radius: 5px;
+    float: right;
+}
+
+.zip {   
+    width: 80px;
+    padding: 2px;
+    margin: 2px;
+    box-sizing: border-box;
+    border: none;
+    color: #000000;
+    border-radius: 5px;
+    float: right;
+}
+
+.password {
+    width: 70%;
+    box-sizing: border-box;
+    border: none;
+    color: #000000;
+    border-radius: 5px;
+    float: right;
+}
+
+select:focus {
+    background-color: #e7e7e7;
+}
+
+input[type=text]:focus {
+    background-color: #e7e7e7;
+}
+
+input[type=textarea]:focus {
+    background-color: #e7e7e7;
+}
+
+input[type=password]:focus {
+    background-color: #e7e7e7;
+}
+
+.select {	
+    width: 100%;
+    max-width: 170px;
+    min-width: 100px;
+    padding: 2px;
+    padding-left: 5px;
+    margin: 2px;
+    margin-left: 0px;   
+    box-sizing:1border-box;
+    border: none;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    display: inline-block;
+    float:right;
+}
+
+.textarea {
+   padding: 5px;	
+   border-radius: 5px;
+   width: 90%;
+   resize: none;
+   border: none;
+}
+
+.checkbox {
+    float:left;
+}
+
+.submit {
+    width: 150px;
+    background-color: #2665C4;
+    color: #FFFFFF;
+    padding: 5px 5px;
+    text-decoration: none;
+    text-align: center;
+    margin: 4px 2px;
+    cursor: pointer; 
+    border-radius: 5px;
+    float: right;
+}
+
+.submit:focus {
+    background-color: white;
+}
+
+.submit:hover {
+    background-color: white;
+}
+    
+p {
+    font-weight: bold;	
+}
+
+#nav {
+    clear: both;	
+}
+.form-section {
+    background-color:  #2665C4;
+    border-radius: 5px;
+}
+
+p1 {
+    color:#FFFFFF;
+}
+
+.usernotify {
+    display: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 20px;
+    float: left;
+    word-wrap: break-word;
+}

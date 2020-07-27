@@ -1,0 +1,19 @@
+.commonform {
+    display: inline-block;
+     float:left;
+}
+
+#transcontainer {
+  display: inline-block;
+  right: 2px;
+   
+}
+
+#transfilter {
+    width: 80%;
+    margin:auto;
+}
+
+#scrollcontainer {
+    margin: auto;
+}

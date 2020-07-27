@@ -1,0 +1,63 @@
+.commonform {
+    width: 400px;
+}
+
+.item-header {
+    width: 95px;
+    box-sizing: border-box;
+    border: none;
+    margin:5px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    text-align: left;
+    display: inline-block;
+    float: left;
+}
+
+.account {
+    width: 100px;
+    padding: 2px 3px 2px 3px;
+    margin: 2px 2px 2px 2px;
+    box-sizing: border-box;
+    border: none;
+    color: #000000;
+    border-radius: 5px;
+    display: inline-block;
+    float: left;
+}
+
+.accountno {
+    width: 100px;
+    padding: 2px 3px 2px 3px;
+    margin: 2px 2px 2px 2px;
+    box-sizing: border-box;
+    border: none;
+    color: #000000;
+    border-radius: 5px;
+    display: inline-block;
+    float: left;
+}
+
+.selectdc {
+    width: 95px;
+    padding: 2px 3px 2px 3px;
+    margin: 2px 2px 2px 2px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    display: inline-block;
+    float: left;
+}
+
+.dollars {
+    width: 95px;
+    padding: 2px 3px 2px 3px;
+    margin: 2px 2px 2px 2px;;
+    box-sizing: border-box;
+    border: none;
+    color: #000000;
+    border-radius: 5px;
+    display: inline-block;
+    float: left;
+}

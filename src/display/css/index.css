@@ -1,0 +1,300 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+	font-family: Arial,Helvetica,Verdana,Sans-serif;
+	font-size: 16px;
+	color: #000000;
+	background: #ffffff;
+	text-align: center;
+}
+
+.hidden {
+	display: none;
+}
+
+#page-container {
+	width: auto;
+	margin: auto;
+	text-align: left;
+}
+
+#co-name {
+	float: left;
+	padding: none;
+	margin: 10px;
+}
+
+#logout {
+	float: right;
+	padding: none;
+	margin: 10px;
+}
+
+
+#top-nav {
+	height: 35px; 
+	background: #303030 ;
+	float: center;
+	line-height: 0px;
+	padding: 2px 0px 2px;
+	margin: 0px;
+	clear: both;
+}
+
+/* unvisited link */
+
+#top-nav a 
+a:link {
+    color: #FFFFFF;
+}
+
+/* visited link */
+#top-nav a:visited {
+    color: #FFFFFF;
+}
+
+/* mouse over link*/ 
+#top-nav a:hover {
+    color: #FFFFFF;
+}
+
+/* selected link */
+#top-nav a:active {
+    color: #FFFFFF;
+}
+
+#settings p {
+	cursor: pointer;
+	float: left;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	color: #FFFFFF;
+}
+
+#tenants p {
+	cursor: pointer;
+	float: left;
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	color: #FFFFFF;
+}
+
+#vendors p {
+	cursor: pointer;
+	float: left;
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	color: #FFFFFF;
+}
+
+#properties p {
+	cursor: pointer;
+	float: left;
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	color: #FFFFFF;
+}
+
+#banking p {
+	cursor: pointer;
+	float: left;
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	color: #FFFFFF;
+}
+
+#accounting p {
+	cursor: pointer;
+	float: left;
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	color: #FFFFFF;
+}
+
+#employees p {
+	cursor: pointer;
+	float: left;
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	color: #FFFFFF;
+}
+
+#header {
+	float: center;
+	padding-left: 0px;
+	padding-top: 0px;
+	height: 200px;
+	width: auto;
+	border-bottom:3px solid #000000;
+	margin: 0px;
+}
+
+img {
+	margin-left: 200px;
+	margin-right: auto;
+	width: auto;
+	max-height: 100%;
+	float: left;
+}
+
+
+#header H1 {
+	text-align: center;	
+	font-size: 55px;
+	margin: 0px;
+	color: #000066;
+	letter-spacing: 10px;
+}
+
+#header H3 {
+	text-align: center;
+	padding-top: 50px;	
+	font-size: 15px;
+	margin: 0px;
+	color: #000066;
+	letter-spacing: 5px;
+}
+
+#header p {
+	text-align: left;	
+	font-size: 15px;
+	margin: 0px;
+	color: #0000ff;
+}
+#open {
+	float: right;
+	margin-left: 100px;
+	text-align: left;	
+	font-size: 12px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	color: #0000ff;
+	clear: left;
+}
+
+#sidebar {
+	float: right;
+	width: 100px;
+	line-height: 0px;
+	padding-left: 0px;
+	margin-top: 10px;
+	margin: 5px;
+}
+	
+
+#sidebar-a {
+	display: none;
+	float: right;
+	width: 0px;
+	line-height: 30px;
+	border-left: 3px solid #000000;
+	padding-left: 20px;
+}
+
+#sidebar-a .hidden {
+	display: none;
+}
+
+#sidebar-a .padding {
+	padding: 20px;
+	
+}
+
+#sidebar-a h3 {
+	margin: 0px;
+	padding: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#sidebar-a p {
+	margin: 0px;
+	margin-right: 20px;
+	padding: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.error {
+	color: red;
+}
+
+#content {
+	padding-left: 20px;
+	margin-right: 100px;
+	margin-top: 10px;
+	margin-left: 10px;
+	line-height: 30px;
+	font-size: 12px;
+}
+
+#content h3 {
+	margin: 0px;
+	padding: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#content p {
+	margin: 0px;
+	margin-right: 20px;
+	padding: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#content p1 {
+	color: #FF0000;
+	margin: 0px;
+	margin-right: 0px;
+	padding: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#content .padding {
+	padding: 20px
+}
+
+#ul.a {
+	list-style-type: square;
+}
+
+#footer {
+	height: 66px;
+	clear: both;
+}
+
+#footer {
+	clear: both;
+	font-family: Tahoma, Arial, Helvetica, Sans-serif;
+	font-size: 14px;
+	color: #c9c9c9;
+	border-top: 1px solid #efefef;
+	padding: 13px 25px;
+	line-height: 18px;
+}
+
+#footer a {
+	color: #707070;
+	text-decoration: none;
+	float: left;
+}

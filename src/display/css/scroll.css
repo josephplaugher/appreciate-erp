@@ -1,0 +1,39 @@
+.scrollcontainer {
+	width: 98%;
+	height: 98%;	
+	padding: 10px;
+	float: center;
+	clear: both;
+}
+
+.scroller {
+	height:auto;
+	float: center;
+	overflow: auto;
+	
+}
+
+/*for pages with larger headers*/
+.smallscroller {
+	height:375px;
+	float: center;
+	overflow: auto;
+
+}
+
+/*for the bank rec because of the setrec footer*/
+.bankscroller {
+	height:500px;
+	width: auto;
+	float: center;
+	overflow: auto;
+	bottom:150px;
+}
+
+a:link {
+	color: black;
+}
+
+a:visited {
+	color: black;
+}

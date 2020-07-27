@@ -1,0 +1,12 @@
+{
+    "name": "appreciate/appreciate-erp",
+    "description": "business management and accounting software",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Joseph Plaugher",
+            "email": "joseph@appreciateco.com"
+        }
+    ],
+    "require": {}
+}

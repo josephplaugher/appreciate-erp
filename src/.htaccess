@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+# note this first rewrite would be redundant in 99.999% of cases, apache expects to serve index.php for the /
+RewriteRule ^/$ /ui.php [last]
+RewriteRule ^(.*)$ /ui.php?page=$1 [last]
+RewriteRule ^(.*)/(.*)$ /ui.php?class=$1&method=$2&id=$3 [nocase,last] 
+</IfModule>

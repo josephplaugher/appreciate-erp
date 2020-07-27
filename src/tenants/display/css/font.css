@@ -1,0 +1,23 @@
+body {
+	font-family: Verdana;
+	top: 0px;
+}
+
+#pagecontainer {
+	height: auto;
+}
+
+a:link {
+	color: #FFFFFF;
+}
+
+a:visited {
+	color: #FFFFFF;
+}
+
+.error {
+	color: red;
+	font-weight: bold;
+	border-radius: 5px;
+	padding: 3px;
+ }

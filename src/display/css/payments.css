@@ -1,0 +1,38 @@
+.CVC {
+    width: 50px;
+    padding-left: 10px;
+    margin:auto;
+    box-sizing: border-box;
+    border: none;
+    color: #000000;
+    border-radius: 5px;
+    float: left;
+}
+
+.Exp_year {
+    width: 75px;
+    padding-left: 10px;
+    margin:auto;
+    box-sizing: border-box;
+    border: none;
+    color: #000000;
+    border-radius: 5px;
+    float: left;
+}
+
+.Exp_month {
+    width: 40px;
+    padding-left: 10px;
+    margin:auto;
+    margin-left: 10px;
+    box-sizing: border-box;
+    border: none;
+    color: #000000;
+    border-radius: 5px;
+    float: left;
+}
+
+#planselections {
+    text-align: left;
+    margin-bottom: 20px;
+}

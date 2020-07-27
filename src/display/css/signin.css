@@ -1,0 +1,138 @@
+html, body {
+	margin: auto;
+	padding: 0;
+	width: 350px;
+}
+
+img {
+	height: auto;
+	width: 100%;
+	float: center;
+}
+
+#content {
+	width: auto;
+	height: auto;
+	background-color:#2665C4 ;
+	float: center;
+	clear: left;
+	padding: 5px 20px 20px 20px;
+	border-radius: 5px;
+	color: #FFFFFF;
+}
+
+#logo {
+	width: 350px;
+	height: auto;
+}
+
+#logo-small {
+	width: 150px;
+	height: auto;
+}
+#footer {
+	clear: both;
+	font-size: 14px;
+	color: #c9c9c9;
+	border-top: 1px solid #efefef;
+	padding: 13px 25px;
+	line-height: 18px;
+}
+
+.textinput {
+    width: 95%;
+    padding-left: 10px;
+    margin:auto;
+    box-sizing: border-box;
+    border: none;
+    color: #000000;
+    border-radius: 5px;
+    float: left;
+}
+
+.select {
+  width: 95%;
+    margin: 2px 2px 2px 2px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    display: inline-block;
+    float: center;
+}
+
+.shorttext {
+    width: 20%;
+    padding-left: 10px;
+    margin:auto;
+    box-sizing: border-box;
+    border: none;
+    color: #000000;
+    border-radius: 5px;
+    float: left;
+}
+
+.password {
+    width: 95%; 
+    padding-left: 10px;
+    margin:auto;
+    box-sizing: border-box;
+    border: none;
+    color: #000000;
+    border-radius: 5px;
+    float: left;
+}
+
+input[type=text]:focus {
+    background-color: #e7e7e7;
+}
+
+input[type=password]:focus {
+    background-color: #e7e7e7;
+}
+
+.submit {
+	width: 50%;
+	margin:auto;
+	background-color: #2665C4;
+	color: #FFFFFF;
+	padding: 5px 5px;
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer; 
+	border-radius: 5px;
+	float: center;
+	display: inline-block;
+}
+
+p {
+	font-weight: bold;	
+}
+
+#footer p {
+	float: center;	
+	clear: both;
+	font-size: 10px;
+	color:#2665C4;
+	border-top: 0px solid #D2D6DB;
+	line-height: 10px;
+}
+
+#footer img {
+	width: 100px;
+	height: auto;
+}
+
+.justify {
+text-align: right;
+}
+
+h1.messegecenter{
+	word-wrap: break-word;
+	line-height: 110%;
+}
+
+h3.error{
+	word-wrap: break-word;
+	line-height: 100%;
+}

@@ -1,0 +1,309 @@
+@media screen and (min-width:901px) {
+   
+    html, body {
+            margin: 0;
+            padding: 0;
+            width: auto;
+    }
+
+    #mainpage-container {
+            margin: auto;
+            text-align: left;
+            margin-top: 0px;
+            
+    }
+
+    img {
+            height: auto;
+            max-width: 20%;
+            float: left;
+    }
+
+    #mainco-name {
+            float: right;
+            margin-top: 0px;
+            margin-right: 10px;
+            margin-bottom: 0px;
+            width: auto;
+            
+    }
+
+    #mainco-name p1 {
+            float: left;
+            padding: 5px;
+            color: black;
+            margin-top: 8px;
+    }
+
+    .logout {
+            width: 125px;
+            background-color: #2665C4;
+            color: #FFFFFF;
+            padding: 5px 5px;
+            text-decoration: none;
+            text-align: center;
+            margin: 4px 2px;
+            cursor: pointer; 
+            border-radius: 5px;
+            display: inline-block;
+            float:right;
+    }
+
+    #maintop-nav {	
+            height: 48px; 
+            background: #2665C4;
+            float: left;
+            line-height: 20px;
+            width: 100%;
+            margin-top: 0px;
+            clear: both;
+    }
+
+    .sidenav {
+            display: none;
+    }
+
+    #menubutton {
+            display: none;
+    }
+
+    .mainlinks {
+        background-color: #2665C4;
+        border: none;
+        color: #FFFFFF;
+        padding: 12px 8px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        cursor: pointer;
+        float: left;
+    }
+
+    .mainlinks:hover {
+        background-color: #2eb527;
+    }
+
+    .mainlinks:focus {
+        background-color: #2eb527;
+    }	
+
+    #maincontent {
+            width: auto;
+            padding:10px;
+            margin-right: 0px;
+            margin-top: 15px;
+            margin-left: 10px;
+            margin-bottom:0px;	
+            line-height: 30px;
+            clear: both;
+    }
+
+    #maincontent h3 {
+            margin: 0px;
+            padding: 0px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+    }
+    
+}
+
+@media screen and (max-width:900px) and (max-width : 1024px){
+    #mainpage-container {
+        margin: auto;
+        text-align: center;
+        margin-top: 0px;
+        width:auto;
+    }
+
+    #hover {
+            width: 100%;
+    }
+
+    #createacctheader {
+
+    }
+
+    img {
+            height: auto;
+            max-width: 100%;
+            float: center;
+    }
+
+    #mainco-name {
+            width: auto;
+            float: center;
+            text-align: center;
+            clear: both;
+            margin-top: 0px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+            
+             
+    }
+    
+    #mainco-name p1 {
+            text-align: center;
+            padding: 5px;
+            color: black;
+            margin-top: 8px;
+    }
+    
+    .logout {
+            width: 125px;
+            background-color: #2665C4;
+            color: #FFFFFF;
+            padding: 5px 5px;
+            text-decoration: none;
+            text-align: center;
+            margin: 25px 2px;
+            cursor: pointer; 
+            border-radius: 5px;
+            clear: both;
+            text-align: center;
+            display: inline-block;
+    }
+
+    #maintop-nav {
+            display:none;
+            height: 47px; 
+            background: #2665C4 ;
+            float: center;
+            line-height: 20px;
+            padding: 2px 0px 2px;
+            margin-top: 0px;
+            clear: both;
+    }
+
+    .sidenav {
+            height: 100%; /* 100% Full-height */
+            width: 0%; /*change this with JavaScript */
+            position: fixed ; /* Stay in place */
+            z-index: 1; /* Stay on top */
+            top: 0;
+            right: 0;
+            background-color: #2665C4; /* Black*/
+            overflow-x: hidden; /* Disable horizontal scroll */
+            margin-top: 90px; /*leave some headspace for the logo*/
+            padding-top: 0px; /* Place content 60px from the top */
+            transition: 0.25s; /* 0.5 second transition effect to slide in the sidenav */
+            display:block;
+            border-radius: 5px;
+            color: #FFFFFF;
+            box-sizing: border-box;
+    }
+
+    .sidenavlinks {
+            display:block;	
+            font-size:25px;
+            word-wrap: break-word;
+            height: 35px; 
+            background: #2665C4 ;
+            float: center;
+            line-height: 20px;
+            padding: 2px 0px 2px 10px;
+            margin-top: 0px;
+            border: none;
+            color: #FFFFFF;
+            width: 100%;
+            box-sizing: border-box;
+    }
+
+    #menubutton {
+            float: center;
+    }
+
+    .closebutton {
+            display:block;	
+            font-size:25px;
+            height: 35px; 
+            background: #2665C4 ;
+            float: right;
+            line-height: 20px;
+            padding: 2px 0px 2px 10px;
+            margin-top: 0px;
+            color: #FFFFFF;
+            width: 100%;
+            box-sizing: border-box;
+            text-decoration: none;
+    }
+
+    #slides {
+            width:100%;
+            height: auto;	
+    }
+
+    .mainlinks {
+            background-color: #2665C4;
+            border: none;
+            color: #FFFFFF;
+            padding: 12px 8px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 18px;
+            cursor: pointer;
+            float: left;
+    }
+
+    .mainlinks:hover {
+            background-color: #e7e7e7;
+    }
+
+    .mainlinks:focus {
+            background-color: #e7e7e7;
+            color: black;
+    }	
+
+    #open {
+            float: right;
+            margin-left: 100px;
+            text-align: left;	
+            font-size: 12px;
+            margin-bottom: 0px;
+            margin-top: 0px;
+            color: #0000ff;
+            clear: left;
+    }
+
+    #maincontent {
+            width: auto;
+            padding:10px;
+            margin-right: 0px;
+            margin-top: 0px;
+            margin-left: 0px;
+            margin-bottom:0px;
+            line-height: 30px;
+            clear: both;
+    }
+
+    #maincontent h3 {
+            margin: 0px;
+            padding: 0px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+    }
+
+    #footer {
+            height: 66px;
+            clear: both;
+    }
+
+    #footer {
+            clear: both;
+            font-family: Tahoma, Arial, Helvetica, Sans-serif;
+            font-size: 14px;
+            color: #c9c9c9;
+            border-top: 1px solid #efefef;
+            padding: 13px 25px;
+            line-height: 18px;
+    }
+
+    #footer a {
+            color: #707070;
+            text-decoration: none;
+            float: left;
+    }
+
+}

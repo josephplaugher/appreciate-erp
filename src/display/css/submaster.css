@@ -1,0 +1,29 @@
+.header {
+	color: #00b300;
+	padding: 5px 5px;
+	margin: 4px 2px;
+	border-radius: 12px;
+	font-weight: bold;
+}
+
+.button {
+	width: 100%;
+	background-color: #2665C4;
+	color: #FFFFFF;
+	padding: 5px 5px;
+	font-size: 18px;
+	text-decoration: none;
+	text-align: left;
+	cursor: pointer; 
+	display: inline-block;
+	border-radius: 12px;
+}
+
+.submenu {
+	display: inline-block;
+	vertical-align:top;
+}
+
+#content .padding {
+	padding: 20px;
+}

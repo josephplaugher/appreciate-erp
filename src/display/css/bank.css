@@ -1,0 +1,26 @@
+.commonform {
+    width: auto;
+}
+
+#usernotify {
+    width: 97%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+#filter {
+    width: 38%;
+    float: left;
+    clear:both;
+}
+
+#recfilter {
+    clears:none;
+    width: 38%;
+    float: right;
+}
+
+#recbutton {
+    margin-top: 20px;
+    float: right;
+}

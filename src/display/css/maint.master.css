@@ -1,0 +1,148 @@
+html, body {
+	font-family: Tahoma, Arial, Helvetica, Sans-serif;
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+
+
+body {
+	font-size: 18px;
+	color: #000000;
+	background: #ffffff;
+	text-align: center;
+	width: auto;
+}
+
+#mainpage-container {
+	margin: auto;
+	text-align: left;
+	margin-top: 0px;
+}
+
+#createacctheader {
+
+}
+
+img {
+	height: auto;
+	max-width: 10%;
+	float: left;
+}
+
+#mainco-name {
+	float: right;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	width: 200px;
+}
+
+#mainco-name-small {
+	float: right;
+	padding-right: 50px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	width: 90px;
+}
+
+#mainco-name p1 {
+	float: right;
+}
+
+#maintop-nav {	
+	height: 47px; 
+	background: #2665C4 ;
+	float: center;
+	line-height: 5px;
+	padding: 2px 0px 2px;
+	margin-top: 0px;
+	clear: both;
+}
+
+#maintop-nav H1 {
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.sidenav {
+	display: none;
+}
+
+#menubutton {
+	display: none;
+}
+
+#slides {
+	width:100%;
+	height: auto;	
+}
+
+.mainlinks {
+        background-color: #2665C4;
+        border: none;
+        color: #FFFFFF;
+        padding: 12px 8px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        cursor: pointer;
+        float: left;
+}
+
+.mainlinks:hover {
+    background-color: #e7e7e7;
+}
+
+.mainlinks:focus {
+	background-color: #e7e7e7;
+	color: black;
+}	
+
+#open {
+	float: right;
+	margin-left: 100px;
+	text-align: left;	
+	font-size: 12px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	color: #0000ff;
+	clear: left;
+}
+
+#maincontent {
+	position: fixed ;
+	width: 100%;
+	padding:10px;
+	margin-right: 0px;
+}
+
+#maincontent h3 {
+	margin: 0px;
+	padding: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#footer {
+	height: 66px;
+	clear: both;
+}
+
+#footer {
+	clear: both;
+	font-family: Tahoma, Arial, Helvetica, Sans-serif;
+	font-size: 14px;
+	color: #c9c9c9;
+	border-top: 1px solid #efefef;
+	padding: 13px 25px;
+	line-height: 18px;
+}
+
+#footer a {
+	color: #707070;
+	text-decoration: none;
+	float: left;
+}

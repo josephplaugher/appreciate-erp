@@ -1,0 +1,29 @@
+@media screen and (min-width:901px) {
+
+.options {
+    position:absolute;
+    z-index: +1;
+    cursor: pointer;
+    display: none;
+    text-align: left;
+    margin-top: 23px;
+    line-height: 10px;
+    font-weight: normal;
+}
+
+}
+
+@media screen and (max-width:900px) and (max-width : 1024px){
+
+.options {
+    position:absolute;
+    z-index: +1;
+    cursor: pointer;
+    display: none;
+    text-align: left;
+    margin-top: 23px;
+    line-height: 20px;
+    font-weight: normal;
+}
+    
+}
